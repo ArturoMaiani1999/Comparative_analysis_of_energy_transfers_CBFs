@@ -1,12 +1,10 @@
 clc;
 clear;
 
+task = 0; % 0 for 'save_data' and 1 for simulate
+out = sim('Lorenzo_comparison_simulation.slx');
 
-% out=sim('check_other_Potential.slx');
-% out=sim('Energy_based_CBF_shishir.slx');
-% out=sim('CLF_CBF.slx')
-out = sim('Lorenzo_comparison_simulation.slx')
-stroboscopio_linear
+stroboscopio_linear;
 
 
 
